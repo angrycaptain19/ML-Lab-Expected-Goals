@@ -251,7 +251,7 @@ X2_normalized = scaler.fit_transform(X2) # Feature set 2 (normalized)
 X3_normalized = scaler.fit_transform(X3) # Feature set 3 (normalized)
 
 # Load fully pre-processed shots_df from csv. file
-shots_df = pd.read_csv('shots_df.csv')
+shots_df = pd.read_csv('shots_df_pre-processed.csv')
 
 
 #### Model Implementation #####################################################
